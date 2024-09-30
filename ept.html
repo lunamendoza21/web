@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc; /* Color de fondo suave */
+            color: #333;
+        }
+        header {
+            background: #a8dadc; /* Color pastel azul */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 4px solid #457b9d; /* Color azul más oscuro */
+        }
+        nav {
+            background: #f1faee; /* Color pastel crema */
+            color: #333;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #457b9d; /* Color azul oscuro */
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .nav-buttons a:hover {
+            background-color: #1d3557; /* Color azul más oscuro */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        h1, h2 {
+            color: #1d3557; /* Color azul oscuro */
+        }
+        section {
+            padding: 1.5rem;
+            background: #fff;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #a8dadc; /* Color pastel azul */
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 4px solid #457b9d; /* Color azul más oscuro */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 1rem auto;
+        }
+        iframe {
+            max-width: 100%;
+            height: auto;
+            border: none;
+            display: block;
+            margin: 1rem auto;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        h3 {
+            color: #a8dadc; /* Color pastel azul */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inteligencia Artificial</h1>
+    </header>
+
+    <nav>
+        <div class="nav-buttons">
+            <a href="#que-es-ia">¿Qué es?</a>
+            <a href="#ventajas-desventajas">Ventajas y Desventajas</a>
+            <a href="#tipos-ia">Tipos de IA</a>
+            <a href="#ejemplo-ia">Ejemplo</a>
+            <a href="#usos-ia">¿En qué casos usarla?</a>
+            <a href="#video">Video</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="que-es-ia">
+            <h2>¿Qué es la IA?</h2>
+            <p>
+                La Inteligencia Artificial (IA) es una rama de la informática que se enfoca en la creación de sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Esto incluye habilidades como el aprendizaje, el razonamiento, y la resolución de problemas. La IA puede imitar procesos humanos, tomar decisiones basadas en datos, y mejorar su rendimiento a lo largo del tiempo a través del aprendizaje automático.
+            </p>
+            <img src="ai.jfif" alt="Descripción de la imagen">
+        </section>
+        
+        <section id="ventajas-desventajas">
+            <h2>Ventajas y Desventajas</h2>
+            <h3>Ventajas</h3>
+            <ul>
+                <li><strong>Automatización:</strong> La IA puede automatizar tareas repetitivas, aumentando la eficiencia y reduciendo el error humano.</li>
+                <li><strong>Procesamiento de Datos:</strong> Capaz de analizar grandes volúmenes de datos más rápidamente que un ser humano.</li>
+                <li><strong>Disponibilidad:</strong> Los sistemas de IA pueden operar las 24 horas del día, 7 días a la semana.</li>
+            </ul>
+            <h3>Desventajas</h3>
+            <ul>
+                <li><strong>Costos:</strong> Implementar y mantener sistemas de IA puede ser costoso.</li>
+                <li><strong>Dependencia:</strong> Dependencia excesiva de la tecnología puede llevar a la pérdida de habilidades humanas.</li>
+                <li><strong>Privacidad:</strong> Puede haber problemas de privacidad y seguridad con la recopilación y el almacenamiento de datos.</li>
+            </ul>
+            <img src="iaa.jpg" alt="Ventajas y Desventajas">
+        </section>
+        
+        <section id="tipos-ia">
+            <h2>Tipos de IA</h2>
+            <ul>
+                <li><strong>IA Débil:</strong> Diseñada para realizar tareas específicas, como asistentes virtuales (ej. Siri, Alexa).</li>
+                <li><strong>IA Fuerte:</strong> Sistema con capacidades generales similares a las humanas, capaz de realizar cualquier tarea cognitiva que un humano pueda hacer (todavía en desarrollo).</li>
+                <li><strong>IA General:</strong> Se refiere a sistemas que tienen un nivel de inteligencia comparable al de un ser humano, con la capacidad de entender y aprender cualquier tarea cognitiva (aún no alcanzado).</li>
+            </ul>
+            <img src="ia.jfif" alt="Tipos de IA">
+        </section>
+
+        <section id="ejemplo-ia">
+            <h2>Ejemplo de IA</h2>
+            <ul>
+                <li><strong>Grammarly:</strong> Esta aplicación ayuda a reducir el tiempo que se tarda en revisar y corregir grandes cantidades de texto gracias a los algoritmos de IA. El software de Grammarly utiliza machine learning, deep learning y NLP (Procesamiento de Lenguaje Natural) para que el texto sea lo más legible y natural posible. Realiza chequeos ortográficos en frases complejas, detecta problemas de estilo y ofrece sugerencias. Además, está configurado para entender el tipo de texto que está corrigiendo (un ensayo, un post, un paper) para dar soluciones más acertadas al tipo de lenguaje que se está utilizando.</li>
+            </ul>
+            <img src="grammarly.png" width="600" height="300" alt="Grammarly">
+        </section>
+
+        <section id="usos-ia">
+            <h2>¿En qué casos se debe usar la IA y en qué casos no?</h2>
+            <h3>Casos en los que se debe usar IA</h3>
+            <ul>
+                <li><strong>Automatización de Tareas Repetitivas:</strong> Procesos industriales, administración de datos, y servicios al cliente donde las tareas son repetitivas y estandarizadas.</li>
+                <li><strong>Análisis de Datos:</strong> En campos como el análisis financiero, la investigación médica, y el marketing para descubrir patrones y hacer predicciones.</li>
+            </ul>
+            <h3>Casos en los que no se debe usar IA</h3>
+            <ul>
+                <li><strong>Decisiones Éticas:</strong> En áreas donde se requieren juicios morales y éticos complejos, como decisiones legales o de salud crítica.</li>
+                <li><strong>Interacción Humana:</strong> En situaciones donde la empatía y el entendimiento emocional son cruciales, como en la terapia psicológica o el soporte emocional.</li>
+            </ul>
+            <img src="images.jfif" alt="Casos de Uso de IA">
+        </section>
+
+        <section id="video">
+            <h2>Video</h2>
+            <iframe width="928" height="522" src="https://www.youtube.com/embed/8lMIdrlIWOQ" title="¿Qué es la inteligencia artificial?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </div>
+
+</body>
+</html>
